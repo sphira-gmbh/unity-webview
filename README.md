@@ -1,5 +1,25 @@
 # unity-webview
 
+This is a modified version of
+https://github.com/gree/unity-webview
+
+It has the following features:
+- makes android input file support standard
+- expands webview to include notch area in the setMargins function inside WebView.mm for iOS
+
+## Build and package
+
+1. Install xcpretty `gem install xcpretty`
+2. Make sure to have Unity installed
+3. Make sure to have Android SDK 23 installed.
+4. Make sure to have Android Build Tools 28.0.2 installed.
+5. cd into build folder
+6. Install rake `gem install rake``
+7. `rake`
+8. To package into unitypackage and zip `rake pack`
+9. Done!
+
+
 unity-webview is a plugin for Unity 5 that overlays WebView components
 on Unity view. It works on Android, iOS, Unity Web Player, and Mac
 (Windows is not supported for now).
