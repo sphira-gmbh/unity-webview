@@ -513,14 +513,19 @@ static NSMutableArray *_instances = [[NSMutableArray alloc] init];
 {
     if (webView == nil)
         return;
+    
+    UIWindow *window = UIApplication.sharedApplication.keyWindow;
+    CGFloat topPadding = window.safeAreaInsets.top;
+    CGFloat bottomPadding = window.safeAreaInsets.bottom;
+    
     UIView *view = UnityGetGLViewController().view;
     CGRect frame = webView.frame;
     CGRect screen = view.bounds;
     CGFloat scale = 1.0f / [self getScale:view];
-    frame.size.width = screen.size.width - scale * (left + right) ;
-    frame.size.height = screen.size.height - scale * (top + bottom) ;
-    frame.origin.x = scale * left ;
-    frame.origin.y = scale * top ;
+    frame.size.width = screen.size.width;
+    frame.size.height = screen.size.height + topPadding + bottomPadding;
+    frame.origin.x = 0;
+    frame.origin.y = 0;
     webView.frame = frame;
 }
 
