@@ -13,8 +13,12 @@ It has the following features:
 2. Make sure to have Unity installed
 3. Make sure to have Android SDK 23 installed.
 4. Make sure to have Android Build Tools 28.0.2 installed.
-5. cd into build folder
-6. Install rake `gem install rake``
+5. cd into build folder and
+```bash
+export ANDROID_HOME=~/Library/Android/sdk
+$ export PATH=$PATH:~/Library/Android/sdk/platform-tools/bin:~/Library/Android/sdk/tools:~/Library/Android/sdk/tools/bin
+```
+6. Install rake `gem install rake`
 7. `rake`
 8. To package into unitypackage and zip `rake pack`
 9. Done!
