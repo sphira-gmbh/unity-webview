@@ -276,6 +276,18 @@ static NSMutableArray *_instances = [[NSMutableArray alloc] init];
     return r;
 }
 
+-(void)keyboardWillHide
+{
+    if (@available(iOS 12.0, *)) {
+         for(UIView* v in webView.subviews){
+              if([v isKindOfClass:NSClassFromString(@"WKScrollView")]){
+                      UIScrollView *scrollView = (UIScrollView*)v;
+                      [scrollView setContentOffset:CGPointMake(0, 0)];
+              }
+          }
+     }
+}
+
 - (void)userContentController:(WKUserContentController *)userContentController
       didReceiveScriptMessage:(WKScriptMessage *)message {
 

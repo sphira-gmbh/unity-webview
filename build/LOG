@@ -1,8 +1,8 @@
 
-LICENSE SYSTEM [201975 14:11:21] Next license update check is after 2019-06-28T15:33:16
+LICENSE SYSTEM [2019727 14:37:24] Next license update check is after 2019-07-28T11:54:59
 
 DisplayProgressbar: Unity license
-[Package Manager] Server::Start -- Port 56974 was selected
+[Package Manager] Server::Start -- Port 53545 was selected
 
  COMMAND LINE ARGUMENTS:
 /Applications/Unity/Unity.app/Contents/MacOS/Unity
@@ -16,14 +16,14 @@ Packager.Export
 LOG
 Successfully changed project path to: /Users/robinhuse/unity-webview/build/Packager
 /Users/robinhuse/unity-webview/build/Packager
-Loading GUID <-> Path mappings...0.000062 seconds
-Loading Asset Database...0.007469 seconds
+Loading GUID <-> Path mappings...0.000069 seconds
+Loading Asset Database...0.007715 seconds
 Audio: FMOD Profiler initialized on port 54900
-AssetDatabase consistency checks...0.020455 seconds
-Refreshing native plugins compatible for Editor in 15.29 ms, found 4 plugins.
+AssetDatabase consistency checks...0.022839 seconds
+Refreshing native plugins compatible for Editor in 16.50 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 DisplayProgressbar: Unity Package Manager
-[Package Manager] Done resolving packages in 0.17s seconds
+[Package Manager] Done resolving packages in 0.22s seconds
 [Package Manager] Registering 36 packages:
 [Package Manager]  * Package :  com.unity.ads@2.0.8
     (location: /Users/robinhuse/Library/Unity/cache/packages/packages.unity.com/com.unity.ads@2.0.8)
@@ -113,153 +113,85 @@ Initialize mono
 Mono path[0] = '/Applications/Unity/Unity.app/Contents/Managed'
 Mono path[1] = '/Applications/Unity/Unity.app/Contents/Mono/lib/mono/2.0'
 Mono config path = '/Applications/Unity/Unity.app/Contents/Mono/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,defer=y,address=0.0.0.0:56155
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,defer=y,address=0.0.0.0:56239
 Begin MonoManager ReloadAssembly
 Initializing Unity.PackageManager (PackageManager) v2018.2.15 for Unity v2018.2.15f1
 Registering precompiled unity dll's ...
 Register platform support module: /Applications/Unity/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
 Register platform support module: /Applications/Unity/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.dll
 Register platform support module: /Applications/Unity/Unity.app/Contents/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
-Registered in 0.000857 seconds.
+Registered in 0.000793 seconds.
 Registering precompiled user dll's ...
-Registered in 0.013218 seconds.
+Registered in 0.017580 seconds.
 Registering platform support modules:
-Registered platform support modules in: 0,072984s.
+Registered platform support modules in: 0,074313s.
 Native extension for OSXStandalone target not found
 Native extension for iOS target not found
 Refreshing native plugins compatible for Editor in 0.55 ms, found 8 plugins.
 Native extension for Android target not found
-Refreshing native plugins compatible for Editor in 0.75 ms, found 8 plugins.
-Preloading 2 native plugins for Editor in 13.72 ms.
+Refreshing native plugins compatible for Editor in 0.55 ms, found 8 plugins.
+Preloading 2 native plugins for Editor in 11.10 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.240 seconds
+- Completed reload, in  1.270 seconds
 Platform modules already initialized, skipping
 Begin MonoManager ReloadAssembly
 Initializing Unity.PackageManager (PackageManager) v2018.2.15 for Unity v2018.2.15f1
 Registering platform support modules:
-Registered platform support modules in: 0,03748s.
+Registered platform support modules in: 0,037186s.
 Native extension for OSXStandalone target not found
 Native extension for iOS target not found
-Refreshing native plugins compatible for Editor in 0.67 ms, found 8 plugins.
+Refreshing native plugins compatible for Editor in 0.64 ms, found 8 plugins.
 Native extension for Android target not found
 Refreshing native plugins compatible for Editor in 0.76 ms, found 8 plugins.
-Preloading 2 native plugins for Editor in 1.32 ms.
+Preloading 2 native plugins for Editor in 1.33 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.836 seconds
+- Completed reload, in  0.875 seconds
 Platform modules already initialized, skipping
-Validating Project structure ... 0.000579 seconds.
+Validating Project structure ... 0.000597 seconds.
 Refresh: detecting if any assets need to be imported or removed ...
-
-Hashing assets (1 files)... 0.000 seconds
-  file read: 0.000 seconds (0.002 MB)
-  wait for write: 0.000 seconds (I/O thread blocked by consumer, aka CPU bound)
-  wait for read: 0.000 seconds (CPUT thread waiting for I/O thread, aka disk bound)
-  hash: 0.000 seconds
------ Compute hash(es) for 1 asset(s).
------ Asset named Assets/Editor/Packager.cs is skipped as no actual change.
-
-*** 60e7bf38137eb4950b2f02b7d57c1ad3 replaces 93ed7e318daa44bd19f31960322fb011 at path assets/plugins/webview.bundle 
-*** 5ad99e2446f6f450185b777a22f98f2a replaces 3c772b394bbfd40caadbba2477e6ff40 at path assets/plugins/webviewseparated.bundle 
-Refresh: elapses 0.072543 seconds
-Refresh: trashing asset 93ed7e318daa44bd19f31960322fb011
-Refresh: trashing asset 3c772b394bbfd40caadbba2477e6ff40
-Updating Assets/Plugins - GUID: 0eeb4a341747243bc815cf673c6132b4...
- done. [Time: 39.104311 ms] 
-Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 361.8 MB.
-System memory in use after: 300.0 MB.
-
-Unloading 236 unused Assets to reduce memory usage. Loaded Objects now: 990.
-Total: 16.916617 ms (FindLiveObjects: 0.669695 ms CreateObjectMapping: 0.041466 ms MarkObjects: 1.531896 ms  DeleteObjects: 14.672514 ms)
-
-Updating Assets/Editor - GUID: 4108cb91ea460410ba3a98d7c1649785...
- done. [Time: 3.395615 ms] 
+Refresh: elapses 0.079800 seconds
 Updating Assets/Plugins/WebViewSeparated.bundle - GUID: 5ad99e2446f6f450185b777a22f98f2a...
- done. [Time: 25.723121 ms] 
+ done. [Time: 59.542324 ms] 
+Unloading 268 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 367.7 MB.
+System memory in use after: 305.9 MB.
+
+Unloading 237 unused Assets to reduce memory usage. Loaded Objects now: 991.
+Total: 17.804856 ms (FindLiveObjects: 0.749865 ms CreateObjectMapping: 0.044968 ms MarkObjects: 1.171711 ms  DeleteObjects: 15.837188 ms)
+
 Updating Assets/Plugins/WebView.bundle - GUID: 60e7bf38137eb4950b2f02b7d57c1ad3...
- done. [Time: 2.106912 ms] 
-Updating Assets/Plugins/WebViewSeparated.bundle/Contents - GUID: a15a8437f716043acb97130bd9038694...
- done. [Time: 1.939131 ms] 
-Updating Assets/Plugins/WebView.bundle/Contents - GUID: c19806acadec24160b0c0d06dbc94987...
- done. [Time: 1.761082 ms] 
+ done. [Time: 3.002812 ms] 
 Updating Assets/Plugins/WebViewSeparated.bundle/Contents/Info.plist - GUID: 6e340891ea2284dc4adf96ff321d913e...
 ----- Compute hash for Assets/Plugins/WebViewSeparated.bundle/Contents/Info.plist.
- done. [Time: 556.475363 ms] 
+ done. [Time: 576.351611 ms] 
 Updating Assets/Plugins/WebView.bundle/Contents/Info.plist - GUID: dda3c9e4da61240f4b8033cf135939e7...
 ----- Compute hash for Assets/Plugins/WebView.bundle/Contents/Info.plist.
- done. [Time: 4.597888 ms] 
-Ignoring asset refresh of Assets/Plugins/WebViewSeparated.bundle/Contents/Resources/InfoPlist.strings because the folder it is in has not been imported yet!
-
- 
-(Filename: /Users/builduser/buildslave/unity/build/Modules/AssetDatabase/Editor/V1/AssetInterface.cpp Line: 1424)
-
-Ignoring asset refresh of Assets/Plugins/WebViewSeparated.bundle/Contents/MacOS/WebViewSeparated because the folder it is in has not been imported yet!
-
- 
-(Filename: /Users/builduser/buildslave/unity/build/Modules/AssetDatabase/Editor/V1/AssetInterface.cpp Line: 1424)
-
-Ignoring asset refresh of Assets/Plugins/WebView.bundle/Contents/Resources/InfoPlist.strings because the folder it is in has not been imported yet!
-
- 
-(Filename: /Users/builduser/buildslave/unity/build/Modules/AssetDatabase/Editor/V1/AssetInterface.cpp Line: 1424)
-
-Ignoring asset refresh of Assets/Plugins/WebView.bundle/Contents/MacOS/WebView because the folder it is in has not been imported yet!
-
- 
-(Filename: /Users/builduser/buildslave/unity/build/Modules/AssetDatabase/Editor/V1/AssetInterface.cpp Line: 1424)
-
-Updating ProjectSettings/InputManager.asset - GUID: 00000000000000002000000000000000...
- done. [Time: 2.811239 ms] 
-Updating ProjectSettings/TagManager.asset - GUID: 00000000000000003000000000000000...
- done. [Time: 2.365459 ms] 
-Updating ProjectSettings/ProjectSettings.asset - GUID: 00000000000000004000000000000000...
- done. [Time: 3.245601 ms] 
-Updating ProjectSettings/NavMeshAreas.asset - GUID: 00000000000000004100000000000000...
- done. [Time: 2.377713 ms] 
-Updating ProjectSettings/Physics2DSettings.asset - GUID: 00000000000000005100000000000000...
- done. [Time: 2.817075 ms] 
-Updating ProjectSettings/AudioManager.asset - GUID: 00000000000000006000000000000000...
-Audio: FMOD Profiler initialized on port 54900
- done. [Time: 52.669313 ms] 
-Updating ProjectSettings/GraphicsSettings.asset - GUID: 00000000000000006100000000000000...
- done. [Time: 2.987487 ms] 
-Updating ProjectSettings/TimeManager.asset - GUID: 00000000000000007000000000000000...
- done. [Time: 2.952430 ms] 
-Updating ProjectSettings/ClusterInputManager.asset - GUID: 00000000000000007100000000000000...
- done. [Time: 2.826889 ms] 
-Updating ProjectSettings/DynamicsManager.asset - GUID: 00000000000000008000000000000000...
- done. [Time: 2.951390 ms] 
-Updating ProjectSettings/QualitySettings.asset - GUID: 00000000000000009000000000000000...
- done. [Time: 3.011734 ms] 
-Updating ProjectSettings/UnityConnectSettings.asset - GUID: 0000000000000000a100000000000000...
- done. [Time: 2.812600 ms] 
-Updating ProjectSettings/EditorBuildSettings.asset - GUID: 0000000000000000b000000000000000...
- done. [Time: 3.110109 ms] 
-Updating ProjectSettings/PresetManager.asset - GUID: 0000000000000000b100000000000000...
- done. [Time: 2.671813 ms] 
-Updating ProjectSettings/EditorSettings.asset - GUID: 0000000000000000c000000000000000...
- done. [Time: 2.612812 ms] 
+ done. [Time: 3.240890 ms] 
+Updating Assets/Plugins/WebViewSeparated.bundle/Contents/Resources/InfoPlist.strings - GUID: 5949342755a4e4a8097d935a66ebd16f...
+----- Compute hash for Assets/Plugins/WebViewSeparated.bundle/Contents/Resources/InfoPlist.strings.
+ done. [Time: 474.659800 ms] 
+Updating Assets/Plugins/WebViewSeparated.bundle/Contents/MacOS/WebViewSeparated - GUID: aacef4560b97b4caf9dd111ff3f1623f...
+----- Compute hash for Assets/Plugins/WebViewSeparated.bundle/Contents/MacOS/WebViewSeparated.
+ done. [Time: 2.390915 ms] 
+Updating Assets/Plugins/WebView.bundle/Contents/Resources/InfoPlist.strings - GUID: be8c2c02360dc401aaae392817dd5497...
+----- Compute hash for Assets/Plugins/WebView.bundle/Contents/Resources/InfoPlist.strings.
+ done. [Time: 4.390275 ms] 
+Updating Assets/Plugins/WebView.bundle/Contents/MacOS/WebView - GUID: fb1e76b0ebdac4f49a3d9a080065a1ba...
+----- Compute hash for Assets/Plugins/WebView.bundle/Contents/MacOS/WebView.
+ done. [Time: 2.262705 ms] 
 Updating Assets/Plugins/Android/WebViewPlugin.jar - GUID: 5cc86006188e447118e9ca67c64cd772...
 ----- Compute hash for Assets/Plugins/Android/WebViewPlugin.jar.
- done. [Time: 3.240302 ms] 
+ done. [Time: 2.276502 ms] 
 Updating Assets/Plugins/iOS/WebView.mm - GUID: 5fbb2c04f981a4ff583e0f1d9d7c6fb2...
 ----- Compute hash for Assets/Plugins/iOS/WebView.mm.
- done. [Time: 3.019423 ms] 
-Updating Assets/Plugins/WebViewSeparated.bundle/Contents/Resources - GUID: 5c63da3ec5c5d46d2994fbdcdad1e8eb...
- done. [Time: 2.191279 ms] 
-Updating Assets/Plugins/WebView.bundle/Contents/MacOS - GUID: a133b23e4e68f44d68e3eca9b9361ba8...
- done. [Time: 1.563465 ms] 
-Updating Assets/Plugins/WebView.bundle/Contents/Resources - GUID: db94c964bfc2247c49b1ebd56ae631af...
- done. [Time: 1.621674 ms] 
-Updating Assets/Plugins/WebViewSeparated.bundle/Contents/MacOS - GUID: ea9897cb64d674efa92d93fa46f00233...
- done. [Time: 1.566897 ms] 
+ done. [Time: 2.291401 ms] 
 - Starting compile Library/ScriptAssemblies/Assembly-CSharp-firstpass.dll
 
 -----Compiler Commandline Arguments:
 Filename: /Applications/Unity/Unity.app/Contents/MonoBleedingEdge/bin/mono
-Arguments: '/Applications/Unity/Unity.app/Contents/MonoBleedingEdge/lib/mono/4.5/mcs.exe'  @Temp/UnityTempFile-2c4fbac313c9840fe88339f9275bd9ca
+Arguments: '/Applications/Unity/Unity.app/Contents/MonoBleedingEdge/lib/mono/4.5/mcs.exe'  @Temp/UnityTempFile-7f541eac43827432890af08f5a71fac1
 index: 81
-Responsefile: Temp/UnityTempFile-2c4fbac313c9840fe88339f9275bd9ca Contents: 
+Responsefile: Temp/UnityTempFile-7f541eac43827432890af08f5a71fac1 Contents: 
 -debug
 -target:library
 -nowarn:0169
@@ -465,15 +397,15 @@ Assets/Plugins/WebViewObject.cs(57,9): warning CS0414: The private field `WebVie
 - Finished compile Library/ScriptAssemblies/Assembly-CSharp-firstpass.dll
 Symbols will be read from Temp/Assembly-CSharp-firstpass.dll.mdb
 Script Module: Assembly-CSharp-firstpass.dll
-Pass: 0 took 3 milliseconds
+Pass: 0 took 4 milliseconds
 Pass: 1 took 4 milliseconds
 - Starting compile Library/ScriptAssemblies/Assembly-CSharp-Editor-firstpass.dll
 
 -----Compiler Commandline Arguments:
 Filename: /Applications/Unity/Unity.app/Contents/MonoBleedingEdge/bin/mono
-Arguments: '/Applications/Unity/Unity.app/Contents/MonoBleedingEdge/lib/mono/4.5/mcs.exe'  @Temp/UnityTempFile-389e7926ceaec47938959bf8e31f616f
+Arguments: '/Applications/Unity/Unity.app/Contents/MonoBleedingEdge/lib/mono/4.5/mcs.exe'  @Temp/UnityTempFile-f3b1e707e4e9546c0843c95825029f96
 index: 81
-Responsefile: Temp/UnityTempFile-389e7926ceaec47938959bf8e31f616f Contents: 
+Responsefile: Temp/UnityTempFile-f3b1e707e4e9546c0843c95825029f96 Contents: 
 -debug
 -target:library
 -nowarn:0169
@@ -720,30 +652,30 @@ Reloading assemblies after script compilation.
 Begin MonoManager ReloadAssembly
 Initializing Unity.PackageManager (PackageManager) v2018.2.15 for Unity v2018.2.15f1
 Registering platform support modules:
-Registered platform support modules in: 0,035055s.
+Registered platform support modules in: 0,037404s.
 Native extension for OSXStandalone target not found
 Native extension for iOS target not found
-Refreshing native plugins compatible for Editor in 17.61 ms, found 8 plugins.
+Refreshing native plugins compatible for Editor in 19.47 ms, found 8 plugins.
 Native extension for Android target not found
-Refreshing native plugins compatible for Editor in 0.90 ms, found 8 plugins.
-Preloading 2 native plugins for Editor in 1.41 ms.
+Refreshing native plugins compatible for Editor in 0.66 ms, found 8 plugins.
+Preloading 2 native plugins for Editor in 1.17 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.221 seconds
+- Completed reload, in  1.209 seconds
 Platform modules already initialized, skipping
-Unloading 107 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 310.5 MB.
-System memory in use after: 310.6 MB.
+Unloading 98 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 310.9 MB.
+System memory in use after: 311.0 MB.
 
-Unloading 96 unused Assets to reduce memory usage. Loaded Objects now: 995.
-Total: 1.751051 ms (FindLiveObjects: 0.594511 ms CreateObjectMapping: 0.032379 ms MarkObjects: 1.075257 ms  DeleteObjects: 0.047783 ms)
+Unloading 108 unused Assets to reduce memory usage. Loaded Objects now: 995.
+Total: 1.340860 ms (FindLiveObjects: 0.438447 ms CreateObjectMapping: 0.033579 ms MarkObjects: 0.816753 ms  DeleteObjects: 0.051198 ms)
 
-Refreshing native plugins compatible for Editor in 23.28 ms, found 8 plugins.
-Preloading 2 native plugins for Editor in 1.24 ms.
+Refreshing native plugins compatible for Editor in 23.05 ms, found 8 plugins.
+Preloading 2 native plugins for Editor in 1.34 ms.
 
------ Total AssetImport time: 4.279713s, AssetImport time: 4.158934s, Asset hashing: 0.000870s [62.8 KB, 70.481781 mb/s]
+----- Total AssetImport time: 4.771724s, AssetImport time: 4.650603s, Asset hashing: 0.001787s [201.7 KB, 110.188225 mb/s]
 
-Refresh completed in 4.289159 seconds.
-Warming cache for 546 main assets: 0.000747 seconds elapsed
+Refresh completed in 4.783346 seconds.
+Warming cache for 550 main assets: 0.000853 seconds elapsed
 Initializing Unity extensions:
  '/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/UnityHoloLens/Editor/UnityEditor.HoloLens.dll'  GUID: 12fd8a0055b84bb59e84c9835a37e333
  '/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/Timeline/Runtime/UnityEngine.Timeline.dll'  GUID: 6a10b2909283487f913b00d94cd3faf5
@@ -770,48 +702,29 @@ Initializing Unity extensions:
  '/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/TestRunner/net35/unity-custom/nunit.framework.dll'  GUID: 4b3fa4bde7f1451a8218c03ee6a8ded8
  '/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/Timeline/Editor/UnityEditor.Timeline.dll'  GUID: 7668179ede524d6396c8b7d84461ea29
 Unloading 99 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 313.1 MB.
-System memory in use after: 313.3 MB.
+System memory in use before: 313.0 MB.
+System memory in use after: 313.2 MB.
 
 Unloading 30 unused Assets to reduce memory usage. Loaded Objects now: 1060.
-Total: 1.284457 ms (FindLiveObjects: 0.469607 ms CreateObjectMapping: 0.019977 ms MarkObjects: 0.755054 ms  DeleteObjects: 0.039404 ms)
-
-Updating ProjectSettings/ProjectSettings.asset - GUID: 00000000000000004000000000000000...
- done. [Time: 43.686879 ms] 
-Refreshing native plugins compatible for Editor in 0.72 ms, found 8 plugins.
-Preloading 2 native plugins for Editor in 1.26 ms.
-
------ Total AssetImport time: 0.186064s, AssetImport time: 0.081743s, Asset hashing: 0.000000s [0 B, 0.000000 mb/s]
+Total: 1.379841 ms (FindLiveObjects: 0.490302 ms CreateObjectMapping: 0.023086 ms MarkObjects: 0.819423 ms  DeleteObjects: 0.046502 ms)
 
 Batchmode quit successfully invoked - shutting down!
 Refresh: detecting if any assets need to be imported or removed ...
-Refresh: elapses 0.093877 seconds
-Updating Assets/Plugins/WebViewSeparated.bundle/Contents/Resources/InfoPlist.strings - GUID: 5949342755a4e4a8097d935a66ebd16f...
------ Compute hash for Assets/Plugins/WebViewSeparated.bundle/Contents/Resources/InfoPlist.strings.
- done. [Time: 448.316272 ms] 
-Updating Assets/Plugins/WebViewSeparated.bundle/Contents/MacOS/WebViewSeparated - GUID: aacef4560b97b4caf9dd111ff3f1623f...
------ Compute hash for Assets/Plugins/WebViewSeparated.bundle/Contents/MacOS/WebViewSeparated.
- done. [Time: 1.923452 ms] 
-Updating Assets/Plugins/WebView.bundle/Contents/Resources/InfoPlist.strings - GUID: be8c2c02360dc401aaae392817dd5497...
------ Compute hash for Assets/Plugins/WebView.bundle/Contents/Resources/InfoPlist.strings.
- done. [Time: 2.685850 ms] 
-Updating Assets/Plugins/WebView.bundle/Contents/MacOS/WebView - GUID: fb1e76b0ebdac4f49a3d9a080065a1ba...
------ Compute hash for Assets/Plugins/WebView.bundle/Contents/MacOS/WebView.
- done. [Time: 1.783677 ms] 
-Refreshing native plugins compatible for Editor in 0.72 ms, found 8 plugins.
-Preloading 2 native plugins for Editor in 1.20 ms.
+Refresh: elapses 0.106369 seconds
+Refreshing native plugins compatible for Editor in 4.07 ms, found 8 plugins.
+Preloading 2 native plugins for Editor in 1.26 ms.
 
------ Total AssetImport time: 0.632523s, AssetImport time: 0.515948s, Asset hashing: 0.000879s [140.1 KB, 155.683334 mb/s]
+----- Total AssetImport time: 0.135649s, AssetImport time: 0.000000s, Asset hashing: 0.000000s [0 B, 0.000000 mb/s]
 
-Refresh completed in 0.646420 seconds.
+Refresh completed in 0.150085 seconds.
 Refresh: detecting if any assets need to be imported or removed ...
-Refresh: elapses 0.077572 seconds
-Refreshing native plugins compatible for Editor in 0.73 ms, found 8 plugins.
-Preloading 2 native plugins for Editor in 1.25 ms.
+Refresh: elapses 0.101528 seconds
+Refreshing native plugins compatible for Editor in 0.65 ms, found 8 plugins.
+Preloading 2 native plugins for Editor in 1.07 ms.
 
------ Total AssetImport time: 0.107802s, AssetImport time: 0.000000s, Asset hashing: 0.000000s [0 B, 0.000000 mb/s]
+----- Total AssetImport time: 0.118966s, AssetImport time: 0.000000s, Asset hashing: 0.000000s [0 B, 0.000000 mb/s]
 
-Refresh completed in 0.119009 seconds.
+Refresh completed in 0.133254 seconds.
 [Package Manager] Server::Kill -- Server was shutdown
 Cleanup mono
 Exiting batchmode successfully now!
